@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+selenium
+fake-useragent
+charset-normalizer
+phonenumbers
+pandas
+tqdm
