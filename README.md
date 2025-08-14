@@ -20,15 +20,15 @@ It uses:
 ## Installation
 
 1. Set up Google API keys
-    - Get an API key from ![Google Cloud Console](https://console.cloud.google.com/)
-    - Create a ![Custom Search Engine](https://programmablesearchengine.google.com/)
+    - Get an API key from [Google Cloud Console](https://console.cloud.google.com/)
+    - Create a [Custom Search Engine](https://programmablesearchengine.google.com/)
     - Update config.py:
         ```
         GOOGLE_API_KEY = "your_api_key_here"
         GOOGLE_CX = "your_custom_search_engine_id_here"
         ```
 2. Install ChromeDriver
-    - Download ![ChromeDriver](https://developer.chrome.com/docs/chromedriver/downloads) matching your Chrome version.
+    - Download [ChromeDriver](https://developer.chrome.com/docs/chromedriver/downloads) matching your Chrome version.
     - Update SELENIUM_PATH in config.py to the correct path.
 
 ## Notes
